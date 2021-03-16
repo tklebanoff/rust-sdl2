@@ -16,8 +16,11 @@ path = "src/sdl2/lib.rs"
 
 [dependencies]
 bitflags = "^1"
-libc = "^0.2"
 lazy_static = "^1"
+
+[dependencies.libc]
+version = "^0.2"
+git = "https://github.com/tklebanoff/libc"
 
 [dependencies.sdl2-sys]
 path = "sdl2-sys"
