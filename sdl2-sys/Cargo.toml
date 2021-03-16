@@ -17,7 +17,8 @@ name = "sdl2_sys"
 path = "src/lib.rs"
 
 [dependencies.libc]
-version = "^0.2"
+#version = "^0.2"
+version = "*"
 git = "https://github.com/tklebanoff/libc"
 
 [build-dependencies.bindgen]

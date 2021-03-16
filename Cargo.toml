@@ -19,7 +19,8 @@ bitflags = "^1"
 lazy_static = "^1"
 
 [dependencies.libc]
-version = "^0.2"
+#version = "^0.2"
+version = "*"
 git = "https://github.com/tklebanoff/libc"
 
 [dependencies.sdl2-sys]
